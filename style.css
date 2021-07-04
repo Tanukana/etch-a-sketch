@@ -1,0 +1,36 @@
+.container {
+    display: grid;
+    grid: auto / repeat(16, 34px);
+    justify-content: center;
+    padding: 4em;
+}
+
+.box {
+    border: 1px solid rgb(99, 156, 156);
+    background-color: pink;
+    padding: 1em;
+}
+
+.createDiv {
+    height: 25px;
+    width: 200px;
+    border: 2px solid rgb(177, 104, 129);
+}
+
+.btnContainer {
+    width: 99%;
+    height: 100px;
+    position: absolute;
+    bottom: 0;
+}
+
+.center-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+.paint {
+    background-color: beige;
+}
