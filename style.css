@@ -1,36 +1,50 @@
+.header {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
 .container {
     display: grid;
-    grid: auto / repeat(16, 34px);
+    width: 480px;
+    height: 480px;
+    margin: 0 auto;
+    margin-top: 2em;
+    border: 8px solid rosybrown;
+}
+
+.section {
+    display: flex;
     justify-content: center;
-    padding: 4em;
+    align-content: center;
 }
 
-.box {
-    border: 1px solid rgb(99, 156, 156);
-    background-color: pink;
-    padding: 1em;
+.squares {
+    border: 1px solid antiquewhite;
+    background-color: white;
 }
 
-.createDiv {
+.slider {
     height: 25px;
     width: 200px;
     border: 2px solid rgb(177, 104, 129);
 }
 
-.btnContainer {
+.sizeSelect {
     width: 99%;
     height: 100px;
     position: absolute;
     bottom: 0;
 }
 
-.center-btnContainer {
+.centerSlider {
     display: flex;
-    justify-content: center;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
     align-items: center;
     height: 100px;
 }
 
 .paint {
-    background-color: beige;
+    background-color: thistle;
 }

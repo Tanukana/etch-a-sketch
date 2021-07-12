@@ -9,16 +9,26 @@
 </head>
 <body>
 
+<div class="header">
+    <div class="clearBtn">
+        <button type="submit" class="clear">Clear Grid / New Grid</button>
+    </div>
+</div>
+
+<div class="section">
     <div class="container">
 
     </div>
+</div>
 
     <br>
-    <div class="btnContainer">
-        <div class="center-btnContainer">
-            <button class="createDiv" value="createDiv" name="createDiv">Make my boxes!</button>
-        </div>
+
+<div class="sizeSelect">
+    <div class="centerSlider">
+        <label for="myRange">Select a Grid size: <p class="sliderValue"></p></label>
+        <input type="range" min="1" max="50" value="16" class="slider" name="myRange">
     </div>
+</div>
     
     
 <script src="./eas.js"></script>
